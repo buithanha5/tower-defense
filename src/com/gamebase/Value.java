@@ -5,6 +5,13 @@ public class Value {
     public static int  groundGrass= 0;
     public static int  groundBase= 2;
 
+    public static int airRoadTopLeft=0;
+    public static int airRoadTopRight=1;
+    public static int airRoadBottomLeft=2;
+    public static int airRoadBottomRight=3;
+
+    public static int AirId=-1;
+
     public static int mobAir = -1 ;
     public static int mobSodi = 0;
     public static int mobTark = 1;

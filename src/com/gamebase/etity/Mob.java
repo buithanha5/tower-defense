@@ -15,7 +15,7 @@ public class Mob extends Rectangle {
     public int frametime =0 ,speedTime=Value.Speepd;
     public boolean hasUp=false,hasDown=false,hasRight=false,hasLeft=false;
     public boolean isShooting=false;
-    private int heathMob = 10;
+    private int heathMob = 50;
     public int costMob = 25;
     //public Rectangle heathBar;
     public Mob(){
@@ -88,7 +88,7 @@ public class Mob extends Rectangle {
         //blockX=0;
         //blockY=1;
         speedTime=Value.Speepd;
-        heathMob=10;
+        heathMob=50;
         mobwalk=0;
     }
     public boolean isDie(){
@@ -208,7 +208,7 @@ public class Mob extends Rectangle {
             g.drawString(""+heathMob,x,y);
             g.fillRect(x,y,width,5);
             g.setColor(new Color(255,0,0));
-            g.fillRect(x,y,width-(10-heathMob)*(width/10),5);
+            g.fillRect(x,y,width-(50-heathMob)*(width/50),5);
             g.setColor(Color.black);
         }
     }

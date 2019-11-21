@@ -22,7 +22,7 @@ public class RotateImage{
         frame.setSize(600,400);
         JPanel jPanel=new JPanel();
         ImageIcon ii = new ImageIcon("res/gun.png");
-        RotatedIcon ri = new RotatedIcon(ii, 90.0);
+        RotatedIcon ri = new RotatedIcon(ii, 180.0);
         //JButton button = new JButton( ri );
         Icon icon;
         JLabel jLabel=new JLabel(ri);

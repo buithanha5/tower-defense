@@ -47,12 +47,15 @@ public class Screen extends JPanel implements Runnable{
         spamerMob2=new SpamerMob();
         tileset_ground[0] = new ImageIcon("res/grass.png").getImage();
         //tileset_ground[0] = createImage(new FilteredImageSource( tileset_ground[0].getSource(),new CropImageFilter(0,0*26,26,26)));
-        tileset_ground[1] = new ImageIcon("res/road.png").getImage();
+        tileset_ground[1] = new ImageIcon("res/towerDefense_tile181.png").getImage();
         //tileset_ground[1] = createImage(new FilteredImageSource( tileset_ground[1].getSource(),new CropImageFilter(0,1*26,26,26)));
         tileset_ground[2]=new ImageIcon("res/mapTile_100.png").getImage();
-        tileset_ground[3]=new ImageIcon("res/mapTile_099.png").getImage();
+        tileset_ground[3]=new ImageIcon("res/road.png").getImage();
 
-
+        tileset_air[0]=new ImageIcon("res/mapTile_099.png").getImage();
+        tileset_air[1]=new ImageIcon("res/towerDefense_tile130.png").getImage();
+        tileset_air[2]=new ImageIcon("res/towerDefense_tile131.png").getImage();
+        tileset_air[3]=new ImageIcon("res/towerDefense_tile132.png").getImage();
 
         tileset_res[0] = new ImageIcon("res/cell.png").getImage();
         tileset_res[1] = new ImageIcon("res/cell_shadow.png").getImage();

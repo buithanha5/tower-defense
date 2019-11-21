@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adf667c3-3dd8-4793-a440-d88f844e2b77" name="Default Changelist" comment="" />
+    <list default="true" id="adf667c3-3dd8-4793-a440-d88f844e2b77" name="Default Changelist" comment="sua lan 1">
+      <change afterPath="$PROJECT_DIR$/res/towerDefense_tile130.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/towerDefense_tile131.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/towerDefense_tile132.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/towerDefense_tile181.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/te" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gamebase/tower/physic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Block.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/RotateImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/RotateImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Screen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Store.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Value.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/etity/Mob.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/etity/Mob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/tower/GunTower.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/tower/GunTower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/tower/Tower.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/tower/Tower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/mission1" beforeDir="false" afterPath="$PROJECT_DIR$/save/mission1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gamebase/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gamebase/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gamebase/RotateImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/RotateImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gamebase/RotatedIcon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/RotatedIcon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gamebase/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gamebase/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gamebase/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/Value.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gamebase/etity/Mob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/etity/Mob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gamebase/tower/GunTower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/tower/GunTower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gamebase/tower/Tower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/tower/Tower.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,18 +43,30 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TQDNGLzHP1E1hRYPxS8eTsSNyo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../thegame-master/target/generated-sources/annotations" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/res" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\codeblock\towergame\res" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\codeblock\towergame\res" />
     </key>
@@ -103,5 +143,23 @@
       <updated>1573383383248</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="sua lan 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="sua lan 1" />
   </component>
 </project>

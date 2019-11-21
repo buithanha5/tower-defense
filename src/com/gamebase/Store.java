@@ -42,9 +42,12 @@ public class Store {
                 for (int i = 0; i < Screen.room.blocks.length ; i++) {
                     for (int j = 0; j < Screen.room.blocks[0].length ; j++) {
                         if(Screen.room.blocks[i][j].containsIn(Screen.mse)){
-                            if ((Screen.room.blocks[i][j].groundID!=Value.groundRoad)&&(Screen.room.blocks[i][j].groundID==Value.groundGrass)&&(Screen.room.blocks[i][j].hasTower<0))  {
+                            if ((Screen.room.blocks[i][j].groundID!=Value.groundRoad)&&(Screen.room.blocks[i][j].groundID==Value.groundGrass)
+                                    &&(!Screen.room.blocks[i][j].hasTower)&&(Screen.room.blocks[i][j].airID==Value.AirId))  {
                                // Screen.room.blocks[i][j]=GunTower.reMade(Screen.room.blocks[i][j]);
-                                Screen.room.blocks[i][j].hasTower=heldId;
+                                Tower t=new Tower((Screen.room.blocks[i][j]));
+                                Screen.room.blocks[i][j]=t;
+                                Screen.room.towers.add(t);
                                 Screen.coin-= buttonCost[heldId];
                             }
                         }
