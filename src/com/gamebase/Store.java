@@ -2,6 +2,7 @@ package com.gamebase;
 
 import com.gamebase.tower.GunTower;
 import com.gamebase.tower.Tower;
+import com.gamebase.tower.lazerTower;
 
 import java.awt.*;
 
@@ -44,10 +45,7 @@ public class Store {
                         if(Screen.room.blocks[i][j].containsIn(Screen.mse)){
                             if ((Screen.room.blocks[i][j].groundID!=Value.groundRoad)&&(Screen.room.blocks[i][j].groundID==Value.groundGrass)
                                     &&(!Screen.room.blocks[i][j].hasTower)&&(Screen.room.blocks[i][j].airID==Value.AirId))  {
-                               // Screen.room.blocks[i][j]=GunTower.reMade(Screen.room.blocks[i][j]);
-                                Tower t=new Tower((Screen.room.blocks[i][j]));
-                                Screen.room.blocks[i][j]=t;
-                                Screen.room.towers.add(t);
+                                chooceTower(i,j,heldId);
                                 Screen.coin-= buttonCost[heldId];
                             }
                         }
@@ -60,6 +58,19 @@ public class Store {
         if (mouseButton==3){ // clik mouse right
             holdItem=false;
         }
+    }
+    private void  chooceTower(int i,int j,int a){
+       if (a==1){
+                Tower t=new GunTower((Screen.room.blocks[i][j]));
+                Screen.room.blocks[i][j]=t;
+                Screen.room.towers.add(t);
+            }
+            if(a==2) {
+
+                Tower t=new lazerTower((Screen.room.blocks[i][j]));
+                Screen.room.blocks[i][j]=t;
+                Screen.room.towers.add(t);
+            }
     }
     public void define(){
         for (int i = 0; i <button.length ; i++) {

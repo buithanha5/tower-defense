@@ -15,7 +15,7 @@ public class Mob extends Rectangle {
     public int frametime =0 ,speedTime=Value.Speepd;
     public boolean hasUp=false,hasDown=false,hasRight=false,hasLeft=false;
     public boolean isShooting=false;
-    private int heathMob = 50;
+    public int heathMob = 50;
     public int costMob = 25;
     //public Rectangle heathBar;
     public Mob(){
@@ -96,25 +96,19 @@ public class Mob extends Rectangle {
         return false;
     }
     public int t =0;
-    public void subHeath(){ // tru mau auto
-        if( isShooting) {
-            if (t>=Value.SpeedShoot)  {
-                heathMob--;
-                t=0;
-            }t++;
-            if (isDie()){
-                Screen.coin+=costMob;
-                deleteMod();
-            }
-        }
-    }
-    public void subHeathLogic(){
-        heathMob--;
+    public void mobDie (){
         if (isDie()){
             Screen.coin+=costMob;
             deleteMod();
         }
     }
+//    public void subHeathLogic(){
+//        heathMob--;
+//        if (isDie()){
+//            Screen.coin+=costMob;
+//            deleteMod();
+//        }
+//    }
     public void looseHealth(){
         Screen.heart--;
     }

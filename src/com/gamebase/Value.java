@@ -22,8 +22,8 @@ public class Value {
     public static int startX =0,startY=1;
     public static int endX ,endY;
 
-    public static int gunTower=0;
-    public static int doubleGunTower=1 ;
+    public static int gunTower=1;
+    public static int doubleGunTower=3 ;
     public static int lazerTower=2;
     public static int nullTower=-1;
 

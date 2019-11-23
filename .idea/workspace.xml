@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adf667c3-3dd8-4793-a440-d88f844e2b77" name="Default Changelist" comment="sua lan 1">
-      <change afterPath="$PROJECT_DIR$/res/towerDefense_tile130.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/towerDefense_tile131.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/towerDefense_tile132.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/towerDefense_tile181.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/save/te" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gamebase/tower/physic.java" afterDir="false" />
+    <list default="true" id="adf667c3-3dd8-4793-a440-d88f844e2b77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/gamebase/tower/lazerTower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Block.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/RotateImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/RotateImage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Screen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Store.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/Value.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/etity/Mob.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/etity/Mob.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/tower/GunTower.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/tower/GunTower.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/towergame/com/gamebase/tower/Tower.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/towergame/com/gamebase/tower/Tower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/mission1" beforeDir="false" afterPath="$PROJECT_DIR$/save/mission1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gamebase/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/Block.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gamebase/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gamebase/RotateImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/RotateImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gamebase/RotatedIcon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/RotatedIcon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gamebase/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/Screen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gamebase/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gamebase/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/Value.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gamebase/etity/Mob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/etity/Mob.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gamebase/tower/GunTower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/tower/GunTower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gamebase/tower/Tower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/tower/Tower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gamebase/tower/physic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamebase/tower/physic.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -142,6 +128,14 @@
       <option name="presentableId" value="Default" />
       <updated>1573383383248</updated>
     </task>
+    <task id="LOCAL-00001" summary="sua lan 1">
+      <created>1574349132433</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574349132433</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +153,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/tower-defense" />
+    </ignored-roots>
     <MESSAGE value="sua lan 1" />
     <option name="LAST_COMMIT_MESSAGE" value="sua lan 1" />
   </component>
